@@ -8,7 +8,7 @@ def calculate_age(age):
         return "Your age cannot be negative"
     elif(age<18):
         return "You are a minor"
-    elif(18<age<36):
+    elif(18<=age<=36):
         return "You are a youth"
     else:
         return "You are an elder"
