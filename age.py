@@ -2,7 +2,7 @@
 from datetime import datetime
 
 #defining the function that will calculate the age
-def calculate_age(age):
+def calculate_age(yob):
 
     if (age<0):
         return "Your age cannot be negative"
@@ -13,11 +13,11 @@ def calculate_age(age):
     else:
         return "You are an elder"
     
-
+ 
 current=datetime.now().year
 yob = int(input("Enter year of birth:"))
 age = current-int(yob)
-print (calculate_age(age))
+print (calculate_age(yob))
     
 
    
