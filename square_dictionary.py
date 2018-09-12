@@ -4,7 +4,7 @@ def dictionary(lower, upper):
     for y in range(lower,upper):
         myDictionary[y]=y**2
     return myDictionary
-#the main
+
 if __name__ == '__main__':
     print(dictionary(2,15))
     
